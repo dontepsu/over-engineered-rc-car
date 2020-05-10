@@ -8,5 +8,14 @@ The car will be connected to wifi, or if no wifi avaliable it will turn into acc
 
 Controlling the car is done by using a Playstation 4 remote controller. The idea here is simple, the car will provide a Webserver and API using Websockets. Also the car will be hosting a React Web App. The PS4 controller will be connected to a device such as laptop or tablet computer and the command will be passed to the Web App though [Gamepad API](https://developer.mozilla.org/en-US/docs/Web/API/Gamepad_API). The server will receive commands through the Websocket API and will then be propagated to services abstracting the usage of Raspberry PI GPIO.
 
+### Sensors
+I have a plan to incrementally add sensors such as GPS, proximity, gyro and velocimeter.
+
+### Autonomous driving
+Yes. That's the ultimate goal, but the car need to be fully functional first.
+
 ## About the project
 All source code related to project will be published within this repository. I will also be including here more detailed text describing and YouTube videos to show more in depth how the code and the hardware works. This is not a project to be done in weeks, rather in months.
+
+## Contrubuting
+If you find this project interesting and want to contribute, that would be great! 
